@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.logo{
+    display: inline-block;
+    margin-top: 3%;
+    margin-left: 4%;
+    width: 180px;
+}
+img{
+    width: 100%;
+}
+.header-button{
+    display: inline-block;
+    margin-left: 72%;
+}
+.header-option{
+    color:  hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.header-option:hover{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
+.container1{
+    margin-top: 10%;
+    margin-left: 20%;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    margin-right: 5%;
+    font-size: 38px;
+    font-weight: 700;
+}
+pre{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 18%;
+}
+.button{
+    margin: 2% 28%;
+    padding: 15px 55px 15px 55px;
+    color: #fff;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    border-radius: 30px;
+}
+/* Contianer2 */
+.container2{
+    margin-top: 5%;
+    margin-left: 20%;
+}
+.screen-img1{
+    height: 600px;
+    width: 800px;
+}
+.container3{
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 20%;
+    width: 400px;
+}
+.communities-icon{
+    height: 20px;
+    width: 30px;
+    margin: 0;
+}
+.container3-h1{
+    margin: 0;
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 2% ;
+}
+.container3-p{
+    margin: 0;
+    font-size: 14px;
+    color: gray;
+}
+.container4{
+    display: inline-block;
+    margin-left: 12%;
+}
+.messages-icon{
+    height: 20px;
+    width: 30px;
+    margin: 0;
+}
+.container4-h1{
+    margin: 0;
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 2% ;
+}
+.container4-p{
+    margin: 0;
+    font-size: 14px;
+    color: gray;
+}
+.container5{
+    display: flex;
+}
+.body-texts{
+    display: inline-block;
+    width: 300px;
+    margin-top: 10%;
+    margin-left: 6%;
+}
+.body-texts h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 17%;
+}
+.grow-together{
+    display: inline-block;
+    height: 400px;
+    width: 500px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.grow-together-image{
+    height: 300px;
+    width: 400px;
+}
+.container6{
+    display: flex;
+    margin-top: 5%;
+}
+.image2{
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+    margin-left: 10%;
+}
+.conversation-image{
+    height: 250px;
+    width: 300px;
+}
+.body-texts2{
+    display: inline-block;
+    width: 700px;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.body-texts2 h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 17%;
+}
+.container7{
+    display: flex;
+    margin-top: 10%;
+}
+.body-texts3{
+    display: inline-block;
+    width: 300px;
+    margin-top: 10%;
+    margin-left: 6%;
+}
+.body-texts3 h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 17%;
+}
+.your-users{
+    display: inline-block;
+    height: 400px;
+    width: 500px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.your-users-image{
+    height: 300px;
+    width: 400px;
+}
+.last-section{
+        margin-top: 10%;
+        margin-left: 20%;
+    }
+.last-section h1{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 8%;
+    font-size: 38px;
+    font-weight: 700;
+}
+.last-button{
+    margin: 2% 28%;
+    padding: 15px 55px 15px 55px;
+    color: #fff;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    border-radius: 30px;
+}
+
+
+.svg-waves{
+    position: relative;
+    margin-top: 15em;
+    display: flex;
+}
+.waves{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: -1;
+}
+.footer-contents{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    color: #fff;
+    background-color: hsl(192, 100%, 9%);
+    margin-top: 9.5em;
+    z-index: 1;
+}
+
+.footer-logo{
+    margin: 3em 0 0 4em;
+}
+.message-icon{
+    background-size: cover;
+    height: 30px;
+    margin-top: 0.5em;
+}
+.footer-name{
+    display: block;
+}
+.phone-icon{
+    height: 20px;
+    width: 1em;
+}
+.email-icon{
+    height: 20px;
+    width: 1.5em;
+}
+.email-container p{
+    font-size: 14px;
+}
+.news-title{
+    display: inline-block;
+     margin: 1em 0 0em 20em;
+    box-sizing: border-box; 
+    height: 220px;
+    width: 30em;
+    
+}
+.email{
+    height: 35px;
+    width: 18em;
+    margin-left: 6em;
+    border-style: none;
+    border-radius: 5px;
+}
+.subscribe-button{
+    font-family: 'Lato', sans-serif;
+    height: 35px;
+    width: 7em;
+    margin-left: 1em;
+    color: #fff;
+    background-color: hsl(322, 100%, 66%);
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.icon i{
+    font-size: 25px;
+    margin-left: 1em;
+}
+.icon2 i{
+    font-size: 25px;
+    margin-left: 2em;
+}
+.icon3 i{
+    font-size: 25px;
+    margin-left: 2em;
+}
+
+
+
+
